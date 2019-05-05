@@ -1,0 +1,10 @@
+main{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 5% 0;
+}
+.main_1{
+    grid-auto-flow: column;
+    padding:3%;
+    text-align: center;
+}

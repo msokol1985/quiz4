@@ -1,0 +1,36 @@
+header{
+    background-color: rgba(0,0,0,0.8);
+    display: grid;
+    width: 100%;
+    height: auto; 
+}
+.logo{
+    grid-area: auto;
+    color:var(--text-color);
+    font-size: 30px;
+    text-transform: uppercase;
+    padding:20px;
+    
+}
+.menu{
+    display: grid;
+    grid-column: auto;
+    grid-row: auto;
+
+}
+.menu ul{
+    display: grid;
+    list-style: none;
+    grid-auto-flow: column;
+    
+}
+.menu li{
+    grid-auto-flow: column;
+    text-align: center;
+}
+.menu a{
+    color:var(--text-color);
+    text-decoration: none;
+    padding:1em;
+    font-size: 20px;
+}
